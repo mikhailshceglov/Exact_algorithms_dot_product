@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tests.dir/tests/tests.cpp.o CMakeFiles/tests.dir/src/kobbelt.cpp.o CMakeFiles/tests.dir/src/long_accumulator.cpp.o CMakeFiles/tests.dir/src/sorting.cpp.o CMakeFiles/tests.dir/src/pichat.cpp.o -o tests  -lgmp -lgmpxx 
