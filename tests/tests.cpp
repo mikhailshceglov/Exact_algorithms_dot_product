@@ -1,3 +1,4 @@
+#include "fma.hpp"
 #include "kobbelt.hpp"
 #include "long_accumulator.hpp"
 #include "pichat.hpp"
@@ -118,6 +119,7 @@ int main() {
     };
 
     vector<tuple<string, double(*)(const vector<double>&, const vector<double>&), bool(*)(const vector<double>&, const vector<double>&)>> algorithms = {
+        {"FMA", fma_dot_product, CheckPermutations<fma_dot_product>},
         {"Kobbelt", kobbelt_dot_product, CheckPermutations<kobbelt_dot_product>},
         {"Long Acc", long_accumulator_dot_product, CheckPermutations<long_accumulator_dot_product>},
         {"Pichat", pichat_dot_product, CheckPermutations<pichat_dot_product>},

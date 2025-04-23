@@ -178,6 +178,33 @@ tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
+src/fma.o: src/fma.cpp.o
+.PHONY : src/fma.o
+
+# target to build an object file
+src/fma.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/fma.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dot_product_tests.dir/build.make CMakeFiles/dot_product_tests.dir/src/fma.cpp.o
+.PHONY : src/fma.cpp.o
+
+src/fma.i: src/fma.cpp.i
+.PHONY : src/fma.i
+
+# target to preprocess a source file
+src/fma.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/fma.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dot_product_tests.dir/build.make CMakeFiles/dot_product_tests.dir/src/fma.cpp.i
+.PHONY : src/fma.cpp.i
+
+src/fma.s: src/fma.cpp.s
+.PHONY : src/fma.s
+
+# target to generate assembly for a file
+src/fma.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/fma.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dot_product_tests.dir/build.make CMakeFiles/dot_product_tests.dir/src/fma.cpp.s
+.PHONY : src/fma.cpp.s
+
 src/kobbelt.o: src/kobbelt.cpp.o
 .PHONY : src/kobbelt.o
 
@@ -347,6 +374,9 @@ help:
 	@echo "... tests"
 	@echo "... dot_product_tests"
 	@echo "... main"
+	@echo "... src/fma.o"
+	@echo "... src/fma.i"
+	@echo "... src/fma.s"
 	@echo "... src/kobbelt.o"
 	@echo "... src/kobbelt.i"
 	@echo "... src/kobbelt.s"

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/src/fma.cpp.o"
+  "CMakeFiles/main.dir/src/fma.cpp.o.d"
   "CMakeFiles/main.dir/src/kobbelt.cpp.o"
   "CMakeFiles/main.dir/src/kobbelt.cpp.o.d"
   "CMakeFiles/main.dir/src/long_accumulator.cpp.o"

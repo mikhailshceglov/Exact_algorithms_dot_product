@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/misha/leti/sem4/CM/lab2/src/fma.cpp" "CMakeFiles/dot_product_tests.dir/src/fma.cpp.o" "gcc" "CMakeFiles/dot_product_tests.dir/src/fma.cpp.o.d"
   "/home/misha/leti/sem4/CM/lab2/src/kobbelt.cpp" "CMakeFiles/dot_product_tests.dir/src/kobbelt.cpp.o" "gcc" "CMakeFiles/dot_product_tests.dir/src/kobbelt.cpp.o.d"
   "/home/misha/leti/sem4/CM/lab2/src/long_accumulator.cpp" "CMakeFiles/dot_product_tests.dir/src/long_accumulator.cpp.o" "gcc" "CMakeFiles/dot_product_tests.dir/src/long_accumulator.cpp.o.d"
   "/home/misha/leti/sem4/CM/lab2/src/pichat.cpp" "CMakeFiles/dot_product_tests.dir/src/pichat.cpp.o" "gcc" "CMakeFiles/dot_product_tests.dir/src/pichat.cpp.o.d"

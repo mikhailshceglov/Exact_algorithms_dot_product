@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/main.cpp.o: \
  /home/misha/leti/sem4/CM/lab2/src/main.cpp /usr/include/stdc-predef.h \
- /home/misha/leti/sem4/CM/lab2/include/kobbelt.hpp \
- /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
+ /home/misha/leti/sem4/CM/lab2/include/fma.hpp /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -46,6 +46,7 @@ CMakeFiles/main.dir/src/main.cpp.o: \
  /usr/include/c++/12/backward/binders.h \
  /usr/include/c++/12/bits/range_access.h \
  /usr/include/c++/12/bits/vector.tcc \
+ /home/misha/leti/sem4/CM/lab2/include/kobbelt.hpp \
  /home/misha/leti/sem4/CM/lab2/include/long_accumulator.hpp \
  /home/misha/leti/sem4/CM/lab2/include/pichat.hpp \
  /home/misha/leti/sem4/CM/lab2/include/sorting.hpp \

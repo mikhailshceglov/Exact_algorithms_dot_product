@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/misha/leti/sem4/CM/lab2/src/fma.cpp" "CMakeFiles/main.dir/src/fma.cpp.o" "gcc" "CMakeFiles/main.dir/src/fma.cpp.o.d"
   "/home/misha/leti/sem4/CM/lab2/src/kobbelt.cpp" "CMakeFiles/main.dir/src/kobbelt.cpp.o" "gcc" "CMakeFiles/main.dir/src/kobbelt.cpp.o.d"
   "/home/misha/leti/sem4/CM/lab2/src/long_accumulator.cpp" "CMakeFiles/main.dir/src/long_accumulator.cpp.o" "gcc" "CMakeFiles/main.dir/src/long_accumulator.cpp.o.d"
   "/home/misha/leti/sem4/CM/lab2/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"

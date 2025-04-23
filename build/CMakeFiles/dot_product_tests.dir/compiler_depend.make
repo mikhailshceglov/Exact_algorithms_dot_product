@@ -370,7 +370,7 @@ CMakeFiles/dot_product_tests.dir/src/sorting.cpp.o: /home/misha/leti/sem4/CM/lab
 
 CMakeFiles/dot_product_tests.dir/tests/tests.cpp.o: /home/misha/leti/sem4/CM/lab2/tests/tests.cpp \
   /usr/include/stdc-predef.h \
-  /home/misha/leti/sem4/CM/lab2/include/kobbelt.hpp \
+  /home/misha/leti/sem4/CM/lab2/include/fma.hpp \
   /usr/include/c++/12/vector \
   /usr/include/c++/12/bits/stl_algobase.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
@@ -423,6 +423,7 @@ CMakeFiles/dot_product_tests.dir/tests/tests.cpp.o: /home/misha/leti/sem4/CM/lab
   /usr/include/c++/12/backward/binders.h \
   /usr/include/c++/12/bits/range_access.h \
   /usr/include/c++/12/bits/vector.tcc \
+  /home/misha/leti/sem4/CM/lab2/include/kobbelt.hpp \
   /home/misha/leti/sem4/CM/lab2/include/long_accumulator.hpp \
   /home/misha/leti/sem4/CM/lab2/include/pichat.hpp \
   /home/misha/leti/sem4/CM/lab2/include/sorting.hpp \
@@ -926,6 +927,10 @@ CMakeFiles/dot_product_tests.dir/tests/tests.cpp.o: /home/misha/leti/sem4/CM/lab
 
 /usr/include/string.h:
 
+/usr/include/c++/12/bits/locale_conv.h:
+
+/usr/include/c++/12/bits/stl_uninitialized.h:
+
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
@@ -1007,6 +1012,8 @@ CMakeFiles/dot_product_tests.dir/tests/tests.cpp.o: /home/misha/leti/sem4/CM/lab
 /usr/include/c++/12/bits/basic_ios.h:
 
 /home/misha/leti/sem4/CM/lab2/tests/tests.cpp:
+
+/home/misha/leti/sem4/CM/lab2/include/fma.hpp:
 
 /usr/include/alloca.h:
 
@@ -1183,7 +1190,3 @@ CMakeFiles/dot_product_tests.dir/tests/tests.cpp.o: /home/misha/leti/sem4/CM/lab
 /usr/include/c++/12/bits/codecvt.h:
 
 /usr/include/c++/12/bits/locale_facets_nonio.tcc:
-
-/usr/include/c++/12/bits/stl_uninitialized.h:
-
-/usr/include/c++/12/bits/locale_conv.h:
