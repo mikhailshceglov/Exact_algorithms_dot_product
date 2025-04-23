@@ -283,6 +283,33 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/merge.o: src/merge.cpp.o
+.PHONY : src/merge.o
+
+# target to build an object file
+src/merge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/merge.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dot_product_tests.dir/build.make CMakeFiles/dot_product_tests.dir/src/merge.cpp.o
+.PHONY : src/merge.cpp.o
+
+src/merge.i: src/merge.cpp.i
+.PHONY : src/merge.i
+
+# target to preprocess a source file
+src/merge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/merge.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dot_product_tests.dir/build.make CMakeFiles/dot_product_tests.dir/src/merge.cpp.i
+.PHONY : src/merge.cpp.i
+
+src/merge.s: src/merge.cpp.s
+.PHONY : src/merge.s
+
+# target to generate assembly for a file
+src/merge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/merge.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dot_product_tests.dir/build.make CMakeFiles/dot_product_tests.dir/src/merge.cpp.s
+.PHONY : src/merge.cpp.s
+
 src/pichat.o: src/pichat.cpp.o
 .PHONY : src/pichat.o
 
@@ -386,6 +413,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/merge.o"
+	@echo "... src/merge.i"
+	@echo "... src/merge.s"
 	@echo "... src/pichat.o"
 	@echo "... src/pichat.i"
 	@echo "... src/pichat.s"

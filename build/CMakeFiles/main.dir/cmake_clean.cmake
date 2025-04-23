@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/long_accumulator.cpp.o.d"
   "CMakeFiles/main.dir/src/main.cpp.o"
   "CMakeFiles/main.dir/src/main.cpp.o.d"
+  "CMakeFiles/main.dir/src/merge.cpp.o"
+  "CMakeFiles/main.dir/src/merge.cpp.o.d"
   "CMakeFiles/main.dir/src/pichat.cpp.o"
   "CMakeFiles/main.dir/src/pichat.cpp.o.d"
   "CMakeFiles/main.dir/src/sorting.cpp.o"

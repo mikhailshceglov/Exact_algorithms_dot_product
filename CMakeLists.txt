@@ -13,6 +13,8 @@ set(SRC
     src/sorting.cpp
     src/pichat.cpp
     src/fma.cpp
+    
+    src/merge.cpp
 )
 
 add_executable(main ${SRC})
@@ -24,6 +26,8 @@ add_executable(dot_product_tests
     src/sorting.cpp
     src/pichat.cpp
     src/fma.cpp
+
+    src/merge.cpp
 )
 
 target_include_directories(dot_product_tests PRIVATE ${CMAKE_SOURCE_DIR}/include)

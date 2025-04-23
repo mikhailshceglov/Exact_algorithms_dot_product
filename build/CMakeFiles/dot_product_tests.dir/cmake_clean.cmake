@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dot_product_tests.dir/src/kobbelt.cpp.o.d"
   "CMakeFiles/dot_product_tests.dir/src/long_accumulator.cpp.o"
   "CMakeFiles/dot_product_tests.dir/src/long_accumulator.cpp.o.d"
+  "CMakeFiles/dot_product_tests.dir/src/merge.cpp.o"
+  "CMakeFiles/dot_product_tests.dir/src/merge.cpp.o.d"
   "CMakeFiles/dot_product_tests.dir/src/pichat.cpp.o"
   "CMakeFiles/dot_product_tests.dir/src/pichat.cpp.o.d"
   "CMakeFiles/dot_product_tests.dir/src/sorting.cpp.o"
